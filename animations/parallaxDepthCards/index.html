@@ -7,25 +7,46 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <script src="script.js"></script>
     <h1 class="title">Hover over the cards</h1>
 
     <div id="app" class="container">
-        <card data-image="https://images.unsplash.com/photo-1479660656269-197ebb83b540?dpr=2&auto=compress,format&fit=crop&w=1199&h=798&q=80&cs=tinysrgb&crop=">
-            <h1 slot="header">Canyons</h1>
-            <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </card>
-        <card data-image="https://images.unsplash.com/photo-1479659929431-4342107adfc1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">
-            <h1 slot="header">Beaches</h1>
-            <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </card>
-        <card data-image="https://images.unsplash.com/photo-1479644025832-60dabb8be2a1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">
-            <h1 slot="header">Trees</h1>
-            <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </card>
-        <card data-image="https://images.unsplash.com/photo-1479621051492-5a6f9bd9e51a?dpr=2&auto=compress,format&fit=crop&w=1199&h=811&q=80&cs=tinysrgb&crop=">
-            <h1 slot="header">Lakes</h1>
-            <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </card>
+        <div class="card-wrap">
+            <div class="card" style="transform: rotateY(0deg) rotateX(0deg);"> 
+                <div class="card-bg" style="background-image: url(&quot;https://images.unsplash.com/photo-1479660656269-197ebb83b540?dpr=2&amp;auto=compress,format&amp;fit=crop&amp;w=1199&amp;h=798&amp;q=80&amp;cs=tinysrgb&amp;crop=&quot;); transform: translateX(0px) translateY(0px);"></div>
+                <div class="card-info">
+                    <h1>Canyons</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-wrap">
+            <div class="card" style="transform: rotateY(0deg) rotateX(0deg);">
+                <div class="card-bg" style="background-image: url(&quot;https://images.unsplash.com/photo-1479659929431-4342107adfc1?dpr=2&amp;auto=compress,format&amp;fit=crop&amp;w=1199&amp;h=799&amp;q=80&amp;cs=tinysrgb&amp;crop=&quot;); transform: translateX(0px) translateY(0px);"></div> 
+                <div class="card-info">
+                    <h1>Beaches</h1> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-wrap">
+            <div class="card" style="transform: rotateY(0deg) rotateX(0deg);">
+                <div class="card-bg" style="background-image: url(&quot;https://images.unsplash.com/photo-1479644025832-60dabb8be2a1?dpr=2&amp;auto=compress,format&amp;fit=crop&amp;w=1199&amp;h=799&amp;q=80&amp;cs=tinysrgb&amp;crop=&quot;); transform: translateX(0px) translateY(0px);"></div>
+                <div class="card-info">
+                    <h1>Trees</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-wrap">
+            <div class="card" style="transform: rotateY(0deg) rotateX(0deg);">
+                <div class="card-bg" style="background-image: url(&quot;https://images.unsplash.com/photo-1479621051492-5a6f9bd9e51a?dpr=2&amp;auto=compress,format&amp;fit=crop&amp;w=1199&amp;h=811&amp;q=80&amp;cs=tinysrgb&amp;crop=&quot;); transform: translateX(0px) translateY(0px);"></div>
+                <div class="card-info">
+                    <h1>Lakes</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
